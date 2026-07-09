@@ -1,0 +1,112 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+body{
+
+font-family:
+Arial, Helvetica, sans-serif;
+
+padding:40px;
+
+}
+
+
+table{
+
+border-collapse:
+collapse;
+
+width:100%;
+
+}
+
+
+th{
+
+background:#111;
+
+/* color:white; */
+
+position:-webkit-sticky;
+
+position:sticky;
+
+top:0;
+
+}
+
+
+th,td{
+
+padding:10px;
+
+border:1px solid #ddd;
+
+white-space:nowrap;
+
+}
+
+
+
+.table-container{
+
+margin-top:30px;
+
+}
+
+
+
+.table-scroll{
+
+max-height:400px;
+
+overflow:auto;
+
+border:1px solid #ddd;
+
+}
+
+
+
+button{
+
+padding:12px 20px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+
+
+button:hover{
+
+background:#1d4ed8;
+
+}
+
+.table-scroll table{
+  min-width:900px;
+}
+
+
+@media(max-width:768px){
+
+  body{
+    padding:20px;
+  }
+
+
+  th,td{
+    font-size:14px;
+    padding:8px;
+  }
+
+}

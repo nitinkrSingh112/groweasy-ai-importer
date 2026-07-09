@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "module": "nodenext",
+        "target": "esnext",
+        "types": [],
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
+        "strict": true,
+        "jsx": "react-jsx",
+        "verbatimModuleSyntax": true,
+        "isolatedModules": true,
+        "noUncheckedSideEffectImports": true,
+        "moduleDetection": "force",
+        "skipLibCheck": true,
+        "moduleResolution": "nodenext",
+        "preserveConstEnums": true
+    },
+    "files": [
+        "./src/app.ts",
+        "./src/server.ts",
+        "./src/controllers/importController.ts",
+        "./src/prompts/crmPrompt.ts",
+        "./src/routes/importRoutes.ts",
+        "./src/services/aiService.ts",
+        "./src/services/csvService.ts",
+        "./src/utils/batch.ts"
+    ]
+}
